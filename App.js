@@ -12,6 +12,7 @@ import {StyleSheet, View, Text, Button, FlatList} from 'react-native';
 const App = () => {
   const addEntry = () => {
     alert('Abrir tela de adicionar lançamento');
+    console.log('Olá, estou no console!');
   };
 
   return (
